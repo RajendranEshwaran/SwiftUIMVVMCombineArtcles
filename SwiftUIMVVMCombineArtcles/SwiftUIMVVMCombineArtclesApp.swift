@@ -2,7 +2,7 @@
 //  SwiftUIMVVMCombineArtclesApp.swift
 //  SwiftUIMVVMCombineArtcles
 //
-//  Created by gomathi saminathan on 2/19/22.
+//  Created by Rajendran Eshwaran on 2/19/22.
 //
 
 import SwiftUI
@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUIMVVMCombineArtclesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           // ScrollContentView() // Different purpose of testing
+            ContentView() // Different purpose of testing
+            //ListContentView() // Different purpose of testing
         }
     }
 }
