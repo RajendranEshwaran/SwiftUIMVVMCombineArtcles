@@ -12,8 +12,11 @@ struct SwiftUIMVVMCombineArtclesApp: App {
     var body: some Scene {
         WindowGroup {
            // ScrollContentView() // Different purpose of testing
-            ContentView() // Different purpose of testing
+            //ContentView() // Different purpose of testing
             //ListContentView() // Different purpose of testing
+           
+            MainView()
+            
         }
     }
 }
